@@ -6,7 +6,7 @@ function redirectToSpecificPage(deviceName) {
   } else if (deviceName.includes('JES')) {
     window.location.href = 'jes.html';
   } else {
-    window.location.href = 'default_page.html';
+    window.location.href = 'main.html';
   }
 }
 
