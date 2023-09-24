@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>OS Redirect</title>
+  <title>Device Redirect</title>
 </head>
 <body>
-
-<script>
-  const userAgent = navigator.userAgent;
-  
-  if (userAgent.match(/Windows/i)) {
-    window.location.href = 'https://johnsones.sspcschools.com';
-  } else if (userAgent.match(/Macintosh|Mac OS/i)) {
-    window.location.href = 'https://example.com/mac-website';
-  } else if (userAgent.match(/Android/i)) {
-    window.location.href = 'https://example.com/android-website';
-  } else if (userAgent.match(/iOS/i)) {
-    window.location.href = 'https://example.com/ios-website';
-  } else {
-    window.location.href = 'https://sspcschools.com';
-  }
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
