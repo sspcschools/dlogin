@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DLogin</title>
+</head>
+<body>
+
+<script>
+  const deviceName = navigator.userAgent;
+
+  // Check if the device name contains a specific keyword and redirect accordingly
+  if (deviceName.includes('JES')) {
+    window.location.href = 'https://johnsones.sspcschools.com';
+  } else if (deviceName.includes('MMS')) {
+    window.location.href = 'https://mellinemms.sspcschools.com';
+  } else {
+    window.location.href = 'https://sspcschools.com';
+  }
+</script>
+
+</body>
+</html>
